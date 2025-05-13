@@ -3,7 +3,7 @@ from  google.cloud import pubsub_v1
 import json
 
 # import os
-# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/akshaysubramanyaaithal/Desktop/Learning/GCP/gcp_learning_service_account.json"
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="gcp_learning_service_account.json"
 
 
 GCP_PROJECT_ID="eloquent-theme-446911-t2"
