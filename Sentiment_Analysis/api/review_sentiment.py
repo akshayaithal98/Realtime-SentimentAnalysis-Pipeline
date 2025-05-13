@@ -6,8 +6,7 @@ import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 
 # import os
-#app=Flask(__name__)
-# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/akshaysubramanyaaithal/Desktop/Learning/GCP/gcp_learning_service_account.json"
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="gcp_learning_service_account.json"
 
 sentiment_analysis_file=Blueprint("sentiment_analysis_file",__name__)
 
