@@ -42,7 +42,7 @@ This project sets up a sentiment analysis pipeline for user reviews using Google
 
 ### 7. Deploy API to Cloud Run
 - Deploy the subscriber API to **Cloud Run**.
-- Cloud Run provides a public endpoint like https://sa-image-48111.us-central1.run.app
+- Cloud Run provides a public endpoint like https://sa-image-1111.us-central1.run.app
 
 ### 8. Link Subscriber to Pub/Sub
 - Add the **Cloud Run subscriber endpoint** as a **subscriber** to the Pub/Sub topic.
@@ -75,9 +75,9 @@ docker load -i sentiment_image.tar
 
 ### Step 4: Tag and Push Image to Artifact Registry
 ```sh
-docker tag sentiment_image us-central1-docker.pkg.dev/eloq-theme-44444-t2/my-repo/sentiment_image
+docker tag sentiment_image us-central1-docker.pkg.dev/project_id-t2/my-repo/sentiment_image
 
-docker push us-central1-docker.pkg.dev/eloq-theme-44444-t2/my-repo/sentiment_image
+docker push us-central1-docker.pkg.dev/project_id-t2/my-repo/sentiment_image
 ```
 
 ### Step 5: Test the Image Locally with `curl`
