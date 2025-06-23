@@ -1,5 +1,0 @@
-flask
-google-cloud-pubsub
-google-cloud-bigquery
-transformers
-torch
